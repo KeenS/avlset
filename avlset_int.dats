@@ -123,7 +123,7 @@ fun mem{m: nat}(x: int, tree: avlt(m)): bool =
 
 implement
 main0 () =  {
-  val tree = Empty
+  val tree = empty()
   val tree = insert(1, tree)
   val tree = insert(2, tree)
   val tree = insert(4, tree)
